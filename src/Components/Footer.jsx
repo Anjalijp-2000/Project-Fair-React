@@ -2,8 +2,9 @@ import React from 'react'
 import { Link } from 'react-router-dom'
 function Footer() {
   return (
+
    
-      <div style={{width:'100%',height:'300px', }} className='d-flex flex-column justify-content-center align-items-center'>
+      <div style={{width:'100%',height:'300px',backgroundColor:'#AED6F9' ,marginTop:'10%'}} className='d-flex flex-column justify-content-center align-items-center'>
         <div className='footer-div d-flex justify-content-evenly w-100 flex-wrap'>
           <div className="website" style={{width:'400px'}}>
           <h4 className='mb-3 '><i class="fa-brands fa-stack-overflow fa-bounce"></i>Project Fair</h4>
